@@ -1,0 +1,278 @@
+#view{
+	display: none;
+}
+
+#filter{
+	display: none;
+}
+#addmovieform{
+	display: none;
+}
+#app{
+	display: none;
+}
+#login{
+	position: relative;
+    margin-top: 71%;
+    margin-left: 26%;
+    background: #FFFFFF;
+    width: 50%;
+    text-align: center;
+}
+#inputlogin{
+	width: 100%;
+    height: auto;
+    height: 35px;
+    text-align: 10px;
+    font-size: 16px;
+    margin-bottom: 19px;
+}
+#inputpassword{
+	width: 100%;
+    height: auto;
+    height: 35px;
+    text-align: 10px;
+    font-size: 16px;
+    margin-bottom: 19px;
+}
+#btnLogin{
+	width: 64%;
+    height: 31px;
+    border: 0px;
+    border-radius: 4px;
+    background: #cac5c5;
+}
+#register{
+    display: none;
+}
+#ChangeRegister{
+    margin-top: 10px;
+    width: 64%;
+    height: 31px;
+    border: 0px;
+    border-radius: 4px;
+    background: #cac5c5;
+}
+#register{
+    position: relative;
+    margin-top: 71%;
+    margin-left: 26%;
+    background: #FFFFFF;
+    width: 50%;
+    text-align: center;
+}
+#register form input{
+        width: 100%;
+    height: auto;
+    height: 35px;
+    text-align: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#filterbtn{
+    float: right;
+}
+#btnAddMovie{
+    display: block;
+    width: 14%;
+    height: 25px;
+    border: 0;
+    outline: none;
+}
+#filterbtn{
+    border: 0;
+    width: 12%;
+    height: 25px;
+    font-size: 22px;
+    outline: none;
+}
+#minYear{
+    width: 15%;
+    text-align: center;
+}
+#maxYear{
+    width: 15%;
+    text-align: center;
+}
+#btnSearch{
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 27px;
+    width: 25%;
+    height: 32px;
+    border: 0;
+    background: #6d6d6d;
+    color: white;
+    outline: none;
+}
+
+#formmovie input[name=title]{
+    margin: 0 auto;
+    display: block;
+    height: 17px;
+    outline: none;
+}
+#formmovie textarea[name=description]{
+    margin: 0 auto;
+    display: block;
+    height: 17px;
+    outline: none;
+    width: 1;
+    width: 55%;
+    margin-top: 16px;
+    height: 60px;
+}
+#formmovie input[name=year]{
+        margin: 0 auto;
+    display: block;
+    height: 17px;
+    outline: none;
+    margin-top: 16px;
+}
+#formmovie input[name=time]{
+        margin: 0 auto;
+    display: block;
+    height: 17px;
+    outline: none;
+    margin-top: 16px;
+}
+#formmovie input[name=genre]{
+        margin: 0 auto;
+    display: block;
+    height: 17px;
+    outline: none;
+    margin-top: 16px;
+}
+#formmovie input[name=kinopoisk]{
+        margin: 0 auto;
+    display: block;
+    height: 17px;
+    outline: none;
+    margin-top: 16px;
+}
+#formmovie input[name=imdb]{
+        margin: 0 auto;
+    display: block;
+    height: 17px;
+    outline: none;
+    margin-top: 16px;
+}
+#formmovie input[name=photo]{
+    margin-bottom: 16px;
+    margin-top: 16px;
+    display: block;
+    margin-left: auto;    
+}
+#formmovie button{
+        display: block;
+    margin: 64px auto;
+    width: 133px;
+    height: 38px;
+    border: 0;
+}
+
+#info img{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+#filterSearch{
+    display: block;
+    margin: 64px auto;
+    width: 133px;
+    height: 38px;
+    border: 0;
+}
+
+
+
+#filter form input[type=imdb] {
+  height: 32px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+#filter form input[type=imdb]:focus {
+  outline: none;
+}
+#filter form input[type=imdb]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 26px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #50555C;
+  background: #50555C;
+  border-radius: 3px;
+  border: 0px solid #000000;
+}
+#filter form input[type=imdb]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 26px;
+  width: 24px;
+  border-radius: 3px;
+  background: #E10707;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: 0px;
+}
+#filter form input[type=imdb]:focus::-webkit-slider-runnable-track {
+  background: #50555C;
+}
+#filter form input[type=imdb]::-moz-range-track {
+  width: 100%;
+  height: 26px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #50555C;
+  background: #50555C;
+  border-radius: 3px;
+  border: 0px solid #000000;
+}
+#filter form input[type=imdb]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 26px;
+  width: 24px;
+  border-radius: 3px;
+  background: #E10707;
+  cursor: pointer;
+}
+#filter form input[type=imdb]::-ms-track {
+  width: 100%;
+  height: 26px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+#filter form input[type=imdb]::-ms-fill-lower {
+  background: #50555C;
+  border: 0px solid #000000;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px #50555C;
+}
+#filter form input[type=imdb]::-ms-fill-upper {
+  background: #50555C;
+  border: 0px solid #000000;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px #50555C;
+}
+#filter form input[type=imdb]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 26px;
+  width: 24px;
+  border-radius: 3px;
+  background: #E10707;
+  cursor: pointer;
+}
+#filter form input[type=imdb]:focus::-ms-fill-lower {
+  background: #50555C;
+}
+#filter form input[type=imdb]:focus::-ms-fill-upper {
+  background: #50555C;
+}
